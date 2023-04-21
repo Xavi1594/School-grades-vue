@@ -101,7 +101,7 @@ const GetGrades = num =>  {
 </template>
 <style scoped>
 .container {
-  margin: 2em auto;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -122,6 +122,7 @@ form {
   flex-direction: column;
   justify-content: space-around;
   border-radius: 5px;
+  align-items: center;
 }
 
 input, select, button {
