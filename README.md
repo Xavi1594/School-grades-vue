@@ -1,35 +1,42 @@
-# notas
+# School-grades
 
-This template should help get you started developing with Vue 3 in Vite.
+## Contexto del proyecto
 
-## Recommended IDE Setup
+Ejercicio para practicar con Vue 3 + Vitest. Crea un boletín de notas. 
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+La aplicación deberá estar testeada con Vitest. Se recomienda trabajar con un máximo de dos componentes. (Ex.: App y Students)
 
-## Customize configuration
+El profesor tiene que poder agregar a una tabla las notas de sus alumnos. La aplicación tiene que poder permitirle añadir el nombre del alumno, la materia y la nota en formato numérico.
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
 
-## Project Setup
+Columnas de la tabla:
+nombre del alumno
+materia
+clasificación según la nota (Ver baremo)
+NOTA: Recuerda que si se te ocurre algo para mejorar siempre es bienvenido.
+
+Baremo:
+0-3: Muy deficiente
+3-5: Insuficiente
+5-6: Suficiente
+6-7: Bien
+7-9: Notable
+9-10: Sobresaliente
+
+
+
+### HERRAMIENTAS Y LENGUAJES UTILIZADOS
+#### Lenguajes
+- HTML
+- SASS
+- JavaScript
+- Vue3
+
+
+## Instalación
 
 ```sh
 npm install
 ```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Run Unit Tests with [Vitest](https://vitest.dev/)
-
-```sh
-npm run test:unit
-```
+### Autor
+Xavier Villaverde
